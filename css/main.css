@@ -37,3 +37,22 @@ width: 60%;
 font-family:  'Questrial', sans-serif;
 font-size: 20px;
 }
+/* Estilos para account */
+.border-input{
+  background-color: rgb(235, 237, 236);
+  border-width:0;
+  border-bottom: 1px solid black;
+  width:90%;
+  box-shadow: 0 0 10px rgb(7, 121, 121), 0 0 20px rgb(141, 12, 55);
+
+}
+.margin-account{
+margin: 10%;
+text-align: center;
+}
+.margin-account div {
+margin-top: 15%;
+}   
+.button-account {
+margin-top: 15%;
+}
