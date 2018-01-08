@@ -1,0 +1,30 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+/* Estilo para splash */
+.deglu{
+background-color:rgb(132, 175, 155); 
+}
+
+.logo{
+margin-top: 55%;
+}
+/*Estilo para log-in */
+.log-in-logo{
+width: 5em;
+}
+.log-in-background{
+background-color: rgb(235, 237, 236);
+}
+.margin-form{
+margin:10%;
+margin-top: 20%;
+font-family: 'Questrial', sans-serif;
+font-size: 20px;
+}
+.center{
+
+margin-top: 10%;
+}
