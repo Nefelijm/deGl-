@@ -25,6 +25,15 @@ font-family: 'Questrial', sans-serif;
 font-size: 20px;
 }
 .center{
-
 margin-top: 10%;
+}
+/*Estilo para log-in desktop*/
+.logo-desktop{
+margin-top: 55%;
+}
+.margin-desktop{
+margin: 10%;
+width: 60%;
+font-family:  'Questrial', sans-serif;
+font-size: 20px;
 }
