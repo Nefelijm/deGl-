@@ -56,3 +56,20 @@ margin-top: 15%;
 .button-account {
 margin-top: 15%;
 }
+
+/* Estilos para account desktop*/
+.border-input-desktop{
+  background-color: rgb(235, 237, 236);
+  border-width:0;
+  border-bottom: 1px solid black;
+  width:30%;
+  height:40px;
+  box-shadow: 0 0 10px rgb(7, 121, 121), 0 0 20px rgb(141, 12, 55);
+}
+.label-account-desktop{
+    text-align: center;
+    margin-bottom: 3.5%;
+}
+.margin-account-desktop{
+    margin:0;
+}
