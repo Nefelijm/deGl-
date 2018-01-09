@@ -73,3 +73,9 @@ margin-top: 15%;
 .margin-account-desktop{
     margin:0;
 }
+
+#file {
+  width: 100%;
+  height:250px;
+  background-color: aqua;
+}
