@@ -17,9 +17,21 @@ body{
   height: 100%;
 }
 
-.photo{
-  width: 20px;
-  height: 20px;
-  background-color: white;
-  border-radius: 50%;
+.input-post{
+  height: 10vh;
+  border: 3px dotted #999;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
+
+.post-published {
+  margin-top: 4%;
+}
+/*
+.add-post-name{
+  border-top: 5px solid red;
+}
+
+.add-post-content{
+  border-bottom: 5px solid red;
+}*/

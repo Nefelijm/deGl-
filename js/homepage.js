@@ -33,9 +33,23 @@ $(document).ready(function() {
   //Función para que el contenido escrito en el modal se agregue en la sección de notificaciones
   $BtnToPost.on('click',function(e){
     event.preventDefault();
-    $('.add-post-name').prepend($nameRecipe.val());
-    $('.add-post-img').prepend($imgPost.val());
-    $('.add-post-content').prepend($textarea.val());
-    $('.modal-post').hide();
+    var $name = $('.add-post-name').prepend($nameRecipe.val());
+    $name.css({
+      "border-top":"2px solid #9c6757",
+      "font-size":"30px",
+      "margin-top":"3%",
+      "text-align": "center",
+      "text-transform": "uppercase"
+    });
+    var $img = $('.add-post-img').prepend($imgPost.val());
+    var $recipe = $('.add-post-content').prepend($textarea.val());
+    $recipe.css({
+      "border-bottom":"2px solid #9c6757",
+      "font-size":"20px",
+      "margin-bottom":"3%",
+      "text-align": "justify"
+    });
+
+    //$('.modal-post').hide();
   });
 });

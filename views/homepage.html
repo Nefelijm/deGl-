@@ -33,17 +33,15 @@
     <!--Movile-->
     <div class="container-flex">
       <div class="row">
-        <div class="col-xs-12 visible-xs-block">
+        <div class="visible-xs-block col-xs-offset-1 col-xs-10">
           <div class="col-xs-offset-1 col-xs-10">
-            <div>
-                <img class="col-xs-3" src="../assets/images/pastel.png" alt="">
-                <input class="col-xs-9 form-control input-lg" type="text" placeholder="Comparte" data-toggle="modal" data-target="#post">
-            </div>
-            <div>
-              <div class="add-post-name col-xs-8"></div>
-              <div class="add-post-img col-xs-8"></div>
-              <div class="add-post-content col-xs-8"></div>
-            </div>
+              <img class="col-xs-offset-3 col-xs-6" src="../assets/images/pastel.png" alt="">
+              <input class="input-post form-control input-lg" type="text" placeholder="Comparte" data-toggle="modal" data-target="#post">
+          </div>
+          <div class="post-published">
+            <div class="add-post-name col-xs-8"></div>
+            <div class="add-post-img col-xs-4"></div>
+            <div class="add-post-content col-xs-8"></div>
           </div>
         </div>
       </div>
@@ -98,6 +96,19 @@
     </div>
 
 
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyD1Vn6dNmTAjKkb5sA3EJH5gUChB7BWCLk",
+        authDomain: "deglu-fc3e3.firebaseapp.com",
+        databaseURL: "https://deglu-fc3e3.firebaseio.com",
+        projectId: "deglu-fc3e3",
+        storageBucket: "deglu-fc3e3.appspot.com",
+        messagingSenderId: "152980223748"
+      };
+      firebase.initializeApp(config);
+    </script>
     <script src="../vendors/js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="../vendors/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://momentjs.com/downloads/moment.min.js"></script>
