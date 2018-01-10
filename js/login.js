@@ -46,7 +46,7 @@ $(document).ready(function() {
   $('#btnLogout').on('click', e => {
       e.preventDefault();
     firebase.auth().signOut();
-      $(location).attr('href', 'home.html');
+      $(location).attr('href', 'photo.html');
   });
 
   firebase.auth().onAuthStateChanged(firebaseUser => {
