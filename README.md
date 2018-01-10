@@ -1,6 +1,6 @@
-*DEGLU
+*PRODUCTO FINAL: "RED SOCIAL (DEGLU)"
 
-
+Apellidos y Nombres : NEFELI JOÑORUCO Y 
 
 **Objetivos
 

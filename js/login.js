@@ -29,6 +29,7 @@ $(document).ready(function() {
     // Hacemos el metodo de identficacion 
     var promise = auth.signInWithEmailAndPassword(emailLogin, passwordLogin);
     promise.catch(e => console.log(e.message));
+    window.location.href = '../views/homepage.html';
       
   });
 
