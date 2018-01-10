@@ -1,6 +1,5 @@
 $(document).ready(function(){
-alert('aqui estoy');
     setTimeout(function () {
-        window.location.href = 'views/log-in.html';
+        window.location.href = 'views/login.html';
     }, 5000);
 });

@@ -7,75 +7,13 @@ box-sizing: border-box;
 .deglu{
 background-color:rgb(132, 175, 155); 
 }
-
 .logo{
-margin-top: 55%;
+margin-top: 25%;
 }
-/*Estilo para log-in */
-.log-in-logo{
-width: 5em;
-}
-.log-in-background{
-background-color: rgb(235, 237, 236);
-}
-.margin-form{
-margin:10%;
-margin-top: 20%;
-font-family: 'Questrial', sans-serif;
-font-size: 20px;
-}
-.center{
-margin-top: 10%;
-}
-/*Estilo para log-in desktop*/
-.logo-desktop{
-margin-top: 55%;
-}
-.margin-desktop{
-margin: 10%;
-width: 60%;
-font-family:  'Questrial', sans-serif;
-font-size: 20px;
-}
-/* Estilos para account */
-.border-input{
-  background-color: rgb(235, 237, 236);
-  border-width:0;
-  border-bottom: 1px solid black;
-  width:90%;
-  box-shadow: 0 0 10px rgb(7, 121, 121), 0 0 20px rgb(141, 12, 55);
-
-}
-.margin-account{
-margin: 10%;
-text-align: center;
-}
-.margin-account div {
-margin-top: 15%;
-}   
-.button-account {
-margin-top: 15%;
-}
-
-/* Estilos para account desktop*/
-.border-input-desktop{
-  background-color: rgb(235, 237, 236);
-  border-width:0;
-  border-bottom: 1px solid black;
-  width:30%;
-  height:40px;
-  box-shadow: 0 0 10px rgb(7, 121, 121), 0 0 20px rgb(141, 12, 55);
-}
-.label-account-desktop{
-    text-align: center;
-    margin-bottom: 3.5%;
-}
-.margin-account-desktop{
-    margin:0;
-}
-
-#file {
-  width: 100%;
-  height:250px;
-  background-color: aqua;
+.chef{
+ margin-top: 15%;
+ height: 80px;
+ width: 15%;
+ display: inline-block;
+ margin-left: 3%;
 }
