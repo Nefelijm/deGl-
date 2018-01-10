@@ -37,10 +37,13 @@ _________________________________________________________________________
 
 [PROTOTYPE](https://mariaruizq.github.io/prototype-degl-n/).
 
+![recursos](assets/images/prototype.png);
+_________________________________________________________________________
+
 4.HERRAMIENTAS UTILIZADAS
-  -JQUERY
-  -BOOSTSTRAP
-  -MATERIALIZE
-  -HTML5
-  -css3
-  -Firebase
+-JQUERY
+-BOOSTSTRAP
+-MATERIALIZE
+-HTML5
+-css3
+-Firebase
