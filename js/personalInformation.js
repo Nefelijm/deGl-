@@ -1,5 +1,6 @@
 $(document).ready(function() {
   var $btnInformation = $('.btn-information');
+
   //var $infName = $('.information-name');
   //var $infNational = $('.information-national');
   //var $infSpecialty = $('.information-specialty');
@@ -7,8 +8,8 @@ $(document).ready(function() {
   //var $infStudies = $('.information-studies');
   //Función para agregar los datos d ela información en el perfil
 $btnInformation.on('click',function(e){
+  console.log('click');
     e.preventDefault();
-    console.log('click')
     var $nameInf = $('.name-inf').val();
     var $nationalInf = $('.national-inf').val();
     var $specialtyInf = $('.specialty-inf').val();

@@ -32,6 +32,7 @@ $(document).ready(function() {
 
   // Función para que el contenido escrito en el modal se agregue en la sección de notificaciones
   $BtnToPost.on('click', function(e) {
+    console.log('click');
     event.preventDefault();
     var $name = $('.add-post-name').prepend($nameRecipe.val());
     $name.css({
