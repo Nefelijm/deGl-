@@ -30,6 +30,10 @@ $(document).ready(function() {
     var promise = auth.signInWithEmailAndPassword(emailLogin, passwordLogin);
     promise.catch(e => console.log(e.message));
     window.location.href = '../views/homepage.html';
+<<<<<<< HEAD
+=======
+
+>>>>>>> c02ec87ead3cb4515d701df7f9376dfcfe673fe7
   });
     e.preventDefault();
     var emailLogin = email.val();
