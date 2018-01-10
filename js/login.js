@@ -26,10 +26,11 @@ $(document).ready(function() {
     console.log(emailLogin);
     var passwordLogin = password.val();
     var auth = firebase.auth();
-    // Hacemos el metodo de identficacion 
+    // Hacemos el metodo de identficacion
     var promise = auth.signInWithEmailAndPassword(emailLogin, passwordLogin);
     promise.catch(e => console.log(e.message));
-      
+    window.location.href = '../views/homepage.html';
+
   });
 
   // Evento click para registrar usuario
@@ -38,9 +39,10 @@ $(document).ready(function() {
     var emailLogin = email.val();
     var passwordLogin = password.val();
     var auth = firebase.auth();
-    // Hacemos el metodo de identficacion 
+    // Hacemos el metodo de identficacion
     var promise = auth.createUserWithEmailAndPassword(emailLogin, passwordLogin);
     promise.catch(e => console.log(e.message));
+    window.location.href = '../views/homepage.html';
   });
 
   $('#btnLogout').on('click', e => {
@@ -50,7 +52,7 @@ $(document).ready(function() {
   });
 
   firebase.auth().onAuthStateChanged(firebaseUser => {
-    
+
     if (firebaseUser) {
       console.log(firebaseUser);
       btnLogout.classList.remove('hide');
