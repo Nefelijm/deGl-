@@ -1,38 +1,46 @@
-*PRODUCTO FINAL: "RED SOCIAL (DEGLU)"
+*PRODUCTO FINAL: "RED SOCIAL (DEGLÚ)"
 
-Apellidos y Nombres : NEFELI JOÑORUCO Y 
+INTEGRANTES:
+            NEFELI JOÑORUCO
+            MARÍA TERESA RUIZ
 
 **Objetivos
 
     Crear una red social con los siguientes requerimientos.
 
-        . Perfiles de usuarios
+        .Perfiles de usuarios
         .Un newsfeed donde puedes ver las actualizaciones de todos tus contactos
         .Un lugar donde poder escribir posts
         .Un lugar para subir fotos
-        .Capacidad para poder tener amigos o para poder seguir a personas/marcas dentro de         .la red social
+        .Capacidad para poder tener amigos o para poder seguir a personas/marcas dentro de         
+        .la red social
         .Ser mobile friendly
         .Etc.
 
 
+1. A continuación se muestra la agenda dónde se hizo la planificación para poder realizar el proyecto
 
-1.A continuacion se muestra la agenda donde se hizo la planificacion para poder Realizar el proyecto
-
-[Recursos para la AGENDA](https://www.canva.com/design/DACsEGjMckk/y4nRnK1IkqY--aqZvvX0lw/view?website "PLANIFICACION").
+[AGENDA](https://www.canva.com/design/DACsEGjMckk/y4nRnK1IkqY--aqZvvX0lw/view?website "PLANIFICACION").
 
 
 ![recursos](assets/images/agenda.png);
 _________________________________________________________________________
 
-2.Se muestran las entrevista
+2. Entrevista y definimos la problemática
 
-3.FUNCIONALIDAD DE LA APP
+[ENTREVISTA (haciendo click en la foto) Y CONCLUSIONES](https://mariaruizq.github.io/entrevistas/).
+
+![recursos](assets/images/entrevista.png);
+_________________________________________________________________________
+
+3.Prototype, y definimos la funcionalidad
+
+[PROTOTYPE](https://mariaruizq.github.io/prototype-degl-n/).
 
 4.HERRAMIENTAS UTILIZADAS
--JQUERY
--BOOSTSTRAP
--MATERIALIZE
--HTML5
--css3
-
-
+  -JQUERY
+  -BOOSTSTRAP
+  -MATERIALIZE
+  -HTML5
+  -css3
+  -Firebase
