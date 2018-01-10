@@ -1,6 +1,7 @@
-$(document).ready(function(){
-alert('aqui estoy');
-    setTimeout(function () {
-        window.location.href = 'views/homepage.html';
-    }, 5000);
+$(document).ready(function() {
+  setTimeout(function() {
+    var $users = ['flor','dd'];
+    localStorage.setItem('users', JSON.stringify($users));
+    window.location.href = 'views/login.html';
+  }, 5000);
 });
