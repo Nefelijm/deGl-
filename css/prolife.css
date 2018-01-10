@@ -17,7 +17,46 @@ body{
   height: 100%;
 }
 
-.publications{
-  background-color: white;
-  padding: 2%;
+
+
+.logo{
+  color: #fc9d99;
+  font-family: 'Ranga', sans-serif;
+  font-size: 45px;
+  margin-top: 8px;
+  text-decoration: none;
+}
+.search{
+  background-color: gray;
+}
+.icons{
+  color: #fc9d99;
+  margin-top: 20px;
+}
+.perfil{
+  margin-top: 30px;
+}
+
+.style-li-prolife{
+  font-size: 30px;
+  background-color: #fc9d99;
+}
+
+.perfil-letter{
+  font-size: 40px;
+}
+
+.behind{
+  color:#fc9d99;
+  margin-top: 8px;
+ font-size: 50px;
+}
+
+.img-person-prolife{
+  margin-top: 20px;
+}
+
+.style-li-prolife-movile{
+  font-size: 15px;
+  margin-top: 10px;
 }

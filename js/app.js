@@ -22,7 +22,7 @@ $(document).ready(function() {
     });
   });
 
-  //Realizamos el evento click al btn Registrar, para que al llenar el email y la contraseña se me agregue a la data del Firebase
+  //Realizamos el evento click al btn Ingresar, para que al llenar el email y la contraseña se me agregue a la data del Firebase
   $btnEnviar2.on('click',function(e){
     //sacamos el vlaor d elos input email2 y contraseña2
     console.log('click');
@@ -39,6 +39,9 @@ $(document).ready(function() {
       console.log(errorMessage);
       // ...
     });
+    //$(location).attr('href', 'homepage.html');
+    //window.location.href='views/homepage.html';
+    //var $contentPage = $('.content-page').append('<p class="hola">Hola! Deglú esta feliz de verte</p><button class="btn-cerrar" type="button" name="button">Salir de Deglú</button>');
   });
 
   //Creamos una función para copiar el codigo "observador" del código que aparece en firebase
@@ -69,6 +72,22 @@ $(document).ready(function() {
 
   //Realiza una función para que al ingresar, me aparezca el contenido que desee (mi página)
   function showContent(){
-    var $contentPage = $('.content-page').text('hola mundo');
+    //$('.btn-enviar2').on('click',function(e){
+      //$(location).attr('href', 'homepage.html');
+      var $contentPage = $('.content-page').append('<p class="hola">Hola! Deglú esta feliz de verte</p><button class="btn-cerrar" type="button" name="button">Salir de Deglú</button>');
+    //});
   };
+
+  //Realizo el evento click al btn-cerrar (botón que se añade cuando el usuario ingresa)
+  var $btnCerrar = $('.btn-cerrar');
+  $btnCerrar.on('click',function(e){
+    //añadimos el código Firebase para signOut
+    firebase.auth().signOut()
+    .then(function(){
+      console.log('Saliendo')
+    })
+    .catch(function(error){
+      console.log(error);
+    });
+  });
 });

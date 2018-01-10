@@ -26,12 +26,36 @@ body{
 
 .post-published {
   margin-top: 4%;
-}
-/*
-.add-post-name{
-  border-top: 5px solid red;
+text-transform: uppercase;
 }
 
-.add-post-content{
-  border-bottom: 5px solid red;
-}*/
+.style-fondo{
+  background-image: url('../assets/images/modal.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center 95%;
+	justify-content: flex-end;
+}
+
+.logo{
+  color: #fc9d99;
+  font-family: 'Ranga', sans-serif;
+  font-size: 45px;
+  margin-top: 8px;
+  text-decoration: none;
+}
+.search{
+  background-color: gray;
+}
+.icons{
+  color: #fc9d99;
+  margin-top: 20px;
+}
+.perfil{
+  margin-top: 30px;
+}
+
+.style-li-prolife{
+  font-size: 30px;
+  background-color: #fc9d99;
+}
