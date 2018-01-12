@@ -56,7 +56,7 @@ $(document).ready(function() {
   // Validando Password
 
   $('#textPassword').on('input', function(event) {
-    if ($(this).val().length >= 6) {      
+    if ($(this).val().length < 6) {      
       $('#msj2').text('Ingrese su Password correcto');
       $(this).focus();
       desactiveButton();

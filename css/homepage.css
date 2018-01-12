@@ -59,3 +59,11 @@ text-transform: uppercase;
   font-size: 30px;
   background-color: #fc9d99;
 }
+.user {
+  width: 100vw;
+}
+@media (min-width: 1200px) {
+  .style-li-prolife{
+    width: 20%;
+  }
+}

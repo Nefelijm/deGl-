@@ -1,0 +1,19 @@
+Hola chicas, yo soy Anny, bueno aqui van algunos comentarios del FEED-BACK para ustedes:
+
+.En cuanto a la experiencia personal que tuve al revisar su proyecto=>
+- Me encanto el diseño, pero me parecio un poco raro el hecho de tener un limite de cinco digitos para la cantidad de caracteres de mi password, asi que lo cambie a indeterminado, pero manteniendo el limite de digitos que como minimo debe tener cada password.
+- Por otro lado me parecio genial que aparezca el cuadro de 'dialogo' al lado del input del email indicando el error de tipeo.
+- Cuando ingrese a la vista de la cuenta del user, pude ver que habia un area de texto para publicar algo, pero luego me di con la sorpresa de que me aparecia un modal, esto me paecio confuso, ya que al cerrar el modal podia escribir en el, y no sabia si ese espacio servia como boton para publicar o para escribir, luego pense que debia ser un boton porque en el modal se incluyen opciones para subir tanto fotos como la receta en si.
+- En cuanto aparecio el modal y lo revise, me parecio genial que tenga las opciones por asi decirlo de subir videos o fotos y un campo para el texto(La receta), pero lo que me confundio tambien fueron los inputs para rellenar:
+
+      + En la pestaña de fotos y videos:
+            - Habia un input que tenia un label de nombre, pero en el                    placeholder decia 'Escribe el nombre de la imagen', en               cuanto             escribi el nombre de la imagen y le di               click a submit, me             aparecio un mensaje del mismo               input diciendome que el nombre             debia tener un               arroba('@').
+
+            -Tambien cuando vi dos botones de seleccionar archivo y dos              botones mas(uno de submit y uno de publicar).
+      + En la pesataña Recetas:
+            -Esta pestaña si estaba terminada en maquetacion.
+
+-El modal en si, supongo que no debia tener dos pestañas o tal vez si pero una no estaba terminada por falta de tiempo.
+-El concepto general de la app me gusto mucho, la paleta de colores y el creativo nombre.
+-Funcionalmente no pude postear.
+-Me gustaria que implementen la opcion de comentarios en los post creo que seria un buen plus para su proyecto, ya que creo que nadie lo ha hecho, ademas por el tiempo y la practicidad creo que no seria necesario que los comentarios se guarden al recargar, pero si solo se dedican a realizar la experiencia para un usuario si la hacen. Suerte.
