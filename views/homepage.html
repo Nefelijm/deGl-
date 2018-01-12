@@ -39,10 +39,12 @@
               <img class="col-xs-offset-3 col-md-6 col-xs-6" src="../assets/images/pastel.png" alt="">
               <input class="input-post form-control input-lg" type="text" placeholder="Comparte" data-toggle="modal" data-target="#post">
           </div>
-          <div class="post-published">
-            <div class="add-post-name col-md-8 col-xs-8"></div>
-            <div class="add-post-img col-md-4 col-xs-4"></div>
-            <div class="add-post-content col-md-8 col-xs-8"></div>
+          <div class="post-published ">
+            <div class="posit" >
+              <div class="add-post-name text "></div>
+              <div class="add-post-img"></div>
+              <div class="add-post-content text "></div>
+            </div>           
           </div>
         </div>
       </div>
@@ -66,10 +68,16 @@
                   <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Escribe el nombre de la imágen">
                 </div>
                 <div class="form-group">
-                  <label class="form-style" for="exampleInputFile">Foto</label>
-                  <input type="file" id="exampleInputFile">
-                </div>
-                <button type="submit" class="btn btn-default">Subir</button>
+                <!-- <div>
+                  <div id="preview2" class="thumbnail preview">
+                    <a href="#" id="file-select" datafile='#file2' datafileinfo='#file-info2' dataimg='#img2' numero='2' class="btn btn-default file-select">Elegir archivo</a>
+                    <img id='img2' src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNzEiIGhlaWdodD0iMTgwIj48cmVjdCB3aWR0aD0iMTcxIiBoZWlnaHQ9IjE4MCIgZmlsbD0iI2VlZSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9Ijg1LjUiIHk9IjkwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjEycHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MTcxeDE4MDwvdGV4dD48L3N2Zz4="
+                    />                
+                  </div>
+                  <input id="file2" class='file' name="{{campo.name}} " type="file" />
+                </div> -->
+                </div>             
+                
               </form>
             </div>
             <div class="recipe">
@@ -79,8 +87,14 @@
                   <input type="email" class="name-recipe form-control" id="exampleInputEmail1" placeholder="Escribe el nombre de la imágen">
                 </div>
                 <div class="form-group">
-                  <label class="form-style" for="exampleInputFile">Sube una foto</label>
-                  <input class="img-post" type="file" id="exampleInputFile">
+                <div>
+                  <div id="preview2" class="thumbnail preview">
+                    <a href="#" id="file-select" datafile='#file2' datafileinfo='#file-info2' dataimg='#img2' numero='2' class="btn btn-default file-select">Elegir archivo</a>
+                    <img id='img2' src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNzEiIGhlaWdodD0iMTgwIj48cmVjdCB3aWR0aD0iMTcxIiBoZWlnaHQ9IjE4MCIgZmlsbD0iI2VlZSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9Ijg1LjUiIHk9IjkwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjEycHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MTcxeDE4MDwvdGV4dD48L3N2Zz4="
+                    />                
+                  </div>
+                  <input id="file2" class='file' name="{{campo.name}} " type="file" />
+                </div>
                 </div>
                 <div class="form-group">
                   <label class="form-style" for="exampleInputFile">Receta</label>

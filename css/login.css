@@ -4,7 +4,7 @@ padding:0;
 box-sizing: border-box;
 }
 .background{
-background-image: url('../assets/img/fondo.gif');
+background-color:rgb(241, 215, 241);
 background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -17,10 +17,16 @@ background-color:rgb(132, 175, 155);
     width: 25%;
 }
 .login-background{
-    background-color:rgb(188, 121, 226);
+
+    background-image: url('../assets/images/fondo1.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     width: 260px;  
     height: 300px; 
     margin-top: 10%;
+    color: white;
+    font-size: 20px;
 }
 .margin{
 margin:10%;

@@ -29,6 +29,7 @@ $(document).ready(function () {
     // Hacemos el metodo de identficacion 
     var promise = auth.signInWithEmailAndPassword(emailLogin, passwordLogin);
     promise.catch(e => console.log(e.message));
+    
 
   });
 
@@ -41,12 +42,13 @@ $(document).ready(function () {
     // Hacemos el metodo de identficacion 
     var promise = auth.createUserWithEmailAndPassword(emailLogin, passwordLogin);
     promise.catch(e => console.log(e.message));
+  
   });
 
   $('#btnLogout').on('click', e => {
     e.preventDefault();
     firebase.auth().signOut();
-    $(location).attr('href', 'photo.html');
+    window.location.href = '../views/homepage.html';
   });
 
   firebase.auth().onAuthStateChanged(firebaseUser => {
