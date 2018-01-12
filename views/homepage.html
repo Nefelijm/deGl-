@@ -34,15 +34,15 @@
     <!--Movile-->
     <div class="container-flex">
       <div class="row">
-        <div class="visible-xs-block col-xs-offset-1 col-xs-10">
-          <div class="col-xs-offset-1 col-xs-10">
-              <img class="col-xs-offset-3 col-xs-6" src="../assets/images/pastel.png" alt="">
+        <div class="visible-lg-xs-md-block col-xs-offset-1 col-md-10 col-xs-10">
+          <div class="col-xs-offset-1  col-md-10 col-xs-10">
+              <img class="col-xs-offset-3 col-md-6 col-xs-6" src="../assets/images/pastel.png" alt="">
               <input class="input-post form-control input-lg" type="text" placeholder="Comparte" data-toggle="modal" data-target="#post">
           </div>
           <div class="post-published">
-            <div class="add-post-name col-xs-8"></div>
-            <div class="add-post-img col-xs-4"></div>
-            <div class="add-post-content col-xs-8"></div>
+            <div class="add-post-name col-md-8 col-xs-8"></div>
+            <div class="add-post-img col-md-4 col-xs-4"></div>
+            <div class="add-post-content col-md-8 col-xs-8"></div>
           </div>
         </div>
       </div>
@@ -54,36 +54,36 @@
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             <ul class="nav nav-tabs">
-              <li role="presentation" class="active btn-photo"><a href="#">Fotos / Videos</a></li>
-              <li role="presentation" class="btn-recipe"><a href="#">Recetas</a></li>
+              <li role="presentation" class="btn-photo-style active btn-photo"><a href="#">Fotos / Videos</a></li>
+              <li role="presentation" class="btn-recipe-style btn-recipe"><a href="#">Recetas</a></li>
             </ul>
           </div>
           <div class="modal-body">
             <div class="photo">
               <form>
                 <div class="form-group">
-                  <label for="exampleInputEmail1">Nombre</label>
+                  <label class="form-style" for="exampleInputEmail1">Nombre</label>
                   <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Escribe el nombre de la imágen">
                 </div>
                 <div class="form-group">
-                  <label for="exampleInputFile">File input</label>
+                  <label class="form-style" for="exampleInputFile">Foto</label>
                   <input type="file" id="exampleInputFile">
                 </div>
-                <button type="submit" class="btn btn-default">Submit</button>
+                <button type="submit" class="btn btn-default">Subir</button>
               </form>
             </div>
             <div class="recipe">
               <form>
                 <div class="form-group">
-                  <label for="exampleInputEmail1">Nombre</label>
+                  <label class="form-style" for="exampleInputEmail1">Nombre</label>
                   <input type="email" class="name-recipe form-control" id="exampleInputEmail1" placeholder="Escribe el nombre de la imágen">
                 </div>
                 <div class="form-group">
-                  <label for="exampleInputFile">Sube una foto</label>
+                  <label class="form-style" for="exampleInputFile">Sube una foto</label>
                   <input class="img-post" type="file" id="exampleInputFile">
                 </div>
                 <div class="form-group">
-                  <label for="exampleInputFile">Receta</label>
+                  <label class="form-style" for="exampleInputFile">Receta</label>
                   <textarea class="textarea form-control" rows="3"></textarea>
                 </div>
               </form>
@@ -98,33 +98,33 @@
     <!--Desckot-->
     <div class="container-flex">
       <div class="row">
-        <div class="col-md-12 visible-md-block">
-          <a class="" href="#"><img src="../assets/images/user.png" alt="" class="perfil col-md-offset-1 col-md-2 img-person img-circle"></a>
-          <div class="content-information"></div>
+        <div class="col-md-offset-1 col-xs-offset-1 col-md-10 col-xs-10 visible-lg-xs-md-block">
+          <a class=" user img-responsive" href="#"><img src="../assets/images/user.png" alt="" class="perfil col-md-offset-1 col-xs-2 col-md-2 img-person img-circle"></a>
+          <!-- <div class="content-information"></div> -->
         </div>
       </div>
     </div>
     <hr>
     <div class="container-flex">
       <div class="row">
-        <div class="col-md-offset-1 col-md-10 visible-md-block">
-          <ul class="text-center col-md-3 nav nav-pills nav-stacked">
+        <div class="col-md-offset-1  col-md-10 visible-lg-block">
+          <ul class="text-center col-xs-10  nav">
             <li class="btn-information style-li-prolife" role="presentation" class="active"><a href="#">Información</a></li>
             <li class="style-li-prolife" role="presentation"><a href="#">Amigos</a></li>
             <li class="style-li-prolife" role="presentation"><a href="#">Fotos</a></li>
             <li class="style-li-prolife" role="presentation"><a href="#">Videos</a></li>
             <li class="style-li-prolife" role="presentation"><a href="#">Recetas</a></li>
           </ul>
-          <div class="text-center col-md-9">
-            <div class="visible-md-block col-md-offset-1 col-md-10">
-              <div class="col-md-offset-1 col-md-10">
-                  <img class="col-md-offset-3 col-md-6" src="../assets/images/pastel.png" alt="">
+          <div class="text-center col-md-5 col-xs-5">
+            <div class="visible-xs-block col-md-offset-1 col-xs-5 col-md-5">
+              <div class="col-md-offset-1 col-xs-offset-1 col-xs-10 col-md-10">
+                  <img class="col-md-offset-3 col-xs-offset-1 col-xs-6 col-md-6" src="../assets/images/pastel.png" alt="">
                   <input class="input-post form-control input-lg" type="text" placeholder="Comparte" data-toggle="modal" data-target="#post">
               </div>
               <div class="post-published">
-                <div class="add-post-name col-md-8"></div>
-                <div class="add-post-img col-md-4"></div>
-                <div class="add-post-content col-md-8"></div>
+                <div class="add-post-name col-xs-8 col-md-8"></div>
+                <div class="add-post-img col-xs-4 col-md-4"></div>
+                <div class="add-post-content col-xs-8 col-md-8"></div>
               </div>
             </div>
           </div>

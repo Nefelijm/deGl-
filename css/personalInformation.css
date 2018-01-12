@@ -65,7 +65,7 @@ body{
 }
 
 .letter-form-movile{
-  color:green;
+  color:#fc9d99;
   margin-top: 7px;
   font-size: 18px;
 }
@@ -80,7 +80,7 @@ body{
 }
 
 .letter-form{
-  color:green;
+  color:red;
   margin-top: 7px;
   font-size: 20px;
 }
