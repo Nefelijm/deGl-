@@ -99,3 +99,25 @@ hr{
 .carousel{
   margin-top: -80px;
 }
+
+.content-information-total{
+  border: 5px dotted  #8887b1;
+  border-radius: 20px;
+}
+.content-information{
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  color: #ca8799;
+  font-weight: 700;
+}
+
+.content-information-total2{
+  border: 5px dotted  #8887b1;
+  border-radius: 20px;
+}
+.content-information2{
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+  color: #ca8799;
+  font-weight: 700;
+}

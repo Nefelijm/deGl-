@@ -1,11 +1,14 @@
 $(document).ready(function() {
   var $btnInformation = $('.btn-information');
-
-  //var $infName = $('.information-name');
-  //var $infNational = $('.information-national');
-  //var $infSpecialty = $('.information-specialty');
-  //var $infAge = $('.information-age');
-  //var $infStudies = $('.information-studies');
+  var $input = $('.input');
+  //Función para activar btn
+  $input.on('keyup', function(e) {
+    var $val = $(this).val();
+    var $text = $(this).val().length;
+    if ($text > 0) {
+      $('.btn-information').removeAttr('disabled');
+    }
+  });
   //Función para agregar los datos d ela información en el perfil
 $btnInformation.on('click',function(e){
   console.log('click');
@@ -16,12 +19,13 @@ $btnInformation.on('click',function(e){
     var $ageInf = $('.age-inf').val();
     var $studiesInf =$('.studies-inf').val();
 
+
     localStorage.name = $nameInf;
-    localStorage.national = $nationalInf;
-    localStorage.speciality = $specialtyInf;
     localStorage.age = $ageInf;
+    localStorage.national = $nationalInf;
     localStorage.studies = $studiesInf;
-    window.location.href = '../views/prolife.html';
+    localStorage.speciality = $specialtyInf;
+    window.location.href = '../views/prolife2.html';
     /*var $infName = $('.information-name').prepend($nameInf.val());
     var $infNational = $('.information-national').prepend($nationalInf.val());
     var $infSpecialty = $('.information-specialty').prepend($specialtyInf.val());
