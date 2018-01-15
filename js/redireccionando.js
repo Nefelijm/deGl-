@@ -6,6 +6,7 @@ $(document).ready(function() {
   var $behind2 = $('.behind2');
   var $iconProlife = $('.icon-prolife');
   var $btnReceta = $('.btn-receta');
+  var $btnVideos = $('.btn-videos');
   var $btnPhotoRedirecciona = $('.btn-photo-redirecciona');
   //Evento al btn información, que me redirecciona al form para agregar tus datos
   $btnInformation.on('click',function(e){
@@ -13,7 +14,11 @@ $(document).ready(function() {
   });
   //Evento al bnt recetas, que me redirecciona a la vista de recetas
   $btnReceta.on('click',function(e){
-    $(location).attr('href', 'recetas.html');
+    $(location).attr('href', 'recipe.html');
+  });
+  //Evento al bnt videos, que me redirecciona a la vista de videos
+  $btnVideos.on('click',function(e){
+    $(location).attr('href', 'videos.html');
   });
   //Evento al logo y atrás del prolife y del personalInformation, que me redirecciona a la vista homepage
   $logo.on('click',function(e){

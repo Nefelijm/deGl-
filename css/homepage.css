@@ -42,11 +42,7 @@ text-transform: uppercase;
 }
 
 .style-fondo{
-  background-image: url('../assets/images/fondoModal.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center 95%;
-	justify-content: flex-end;
+
 }
 .recipe{
   display: none;
@@ -78,7 +74,8 @@ text-transform: uppercase;
 }
 .posit{
   background-color:rgb(236, 201, 201);
-  margin-top:50%;
+  margin-top:10%;
+  width: 100%;
 }
 .text{
   font-family: 'Ranga', cursive;
