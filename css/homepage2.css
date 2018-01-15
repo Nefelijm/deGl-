@@ -1,0 +1,101 @@
+body{
+  background-color: #c8c8c8;
+}
+.nav-movil{
+  background-color: #8887b1;
+  width: 100%;
+  height: 85px;
+}
+.position-btn{
+  margin-bottom: 720px;
+}
+
+.img-logo{
+  margin-top: 5px;
+  height: 70px;
+}
+
+.letter-logo{
+  font-family: 'Pacifico', cursive;
+  margin-top: 15px;
+  font-size: 35px;
+  color: #ca8799;
+}
+
+.btn-nav-movil{
+  margin-top: 20px;
+  background-color: #ca8799;
+}
+
+.input-post{
+  height: 10vh;
+  border: 3px dotted #999;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: #e1d5bf;
+}
+
+.post-published {
+  margin-top: 4%;
+text-transform: uppercase;
+}
+
+.content-post{
+  margin-top: -20px;
+}
+
+hr{
+  margin-top: -110px;
+}
+
+.style-input-post{
+  background-color: red;
+}
+
+.style-letter-corousel{
+  font-family: 'Pacifico', cursive;
+  margin-top: 15px;
+  font-size: 35px;
+  color: #ca8799;
+}
+
+.letter-slider{
+  font-family: 'Pacifico', cursive;
+  margin-top: 15px;
+  font-size: 100px;
+  color: #ca8799;
+}
+
+.nav-vertical{
+  margin-top: 100px;
+}
+
+.nav-home-deskotp{
+  background-color: #e1d5bf;
+  font-size: 20px;
+}
+
+.img-pastel-deskotp{
+  margin-top: 100px;
+}
+
+.nav-content{
+  background-color: #e1d5bf;
+
+}
+
+.li-style{
+  color: #ca8799;
+}
+.content-prolife{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.content-prolife-deskotp{
+  margin-top: 60px;
+}
+
+.carousel{
+  margin-top: -80px;
+}

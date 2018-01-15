@@ -6,10 +6,10 @@ $(document).ready(function() {
   var $behind2 = $('.behind2');
   var $iconProlife = $('.icon-prolife');
   var $btnReceta = $('.btn-receta');
-
+  var $btnPhotoRedirecciona = $('.btn-photo-redirecciona');
   //Evento al btn información, que me redirecciona al form para agregar tus datos
   $btnInformation.on('click',function(e){
-    $(location).attr('href', 'personalInformation.html');
+    $(location).attr('href', 'information.html');
   });
   //Evento al bnt recetas, que me redirecciona a la vista de recetas
   $btnReceta.on('click',function(e){
@@ -20,13 +20,18 @@ $(document).ready(function() {
     $(location).attr('href', 'homepage.html');
   });
   $behind.on('click',function(e){
-    $(location).attr('href', 'homepage.html');
+    $(location).attr('href', 'homepage2.html');
   });
   $behind2.on('click',function(e){
     $(location).attr('href', 'prolife.html');
   });
   //Evento al icon person, para que redireccione a la vista prolife
   $iconProlife.on('click',function(e){
-    $(location).attr('href', 'prolife.html');
+    $(location).attr('href', 'prolife2.html');
+  });
+
+  //Evento click del carrusel FOTOS
+  $btnPhotoRedirecciona.on('click',function(e){
+    $(location).attr('href', 'photo.html');
   });
 });
